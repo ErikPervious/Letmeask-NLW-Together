@@ -6,13 +6,29 @@
   <img src="https://img.shields.io/twitter/url?label=ErikPervious&url=https%3A%2F%2Ftwitter.com%2Ferikpervious" />
 </div>
 
-Tabela de conteudos
+Sumário
 ===================
-1. [Example](#example)
-2. [Example2](#example2)
+* [Letmeask NLW Together](#title)
+* [Example2](#example2)
 
 
-<h1 id="title">Letmeask NLW Together</h1>
+
+<h1 id="title" align="center">Letmeask NLW Together</h1>
 
 <p>O que é...</p>
 
+<h1 align="center">:mag_right: Preview do Projeto</h1>
+
+<div align="center">
+  <img alt="Home" title="#Home" src="./github/home.png" width="250" />
+  <img alt="Link" title="#Link" src="./github/link.png" width="250" />
+  <img alt="Links" title="#Links" src="./github/links.png" width="250" />
+</div>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React Native](https://reactnative.dev/)
