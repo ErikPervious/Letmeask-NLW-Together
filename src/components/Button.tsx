@@ -1,13 +1,11 @@
-import { useState } from 'react';
+import { ButtonHTMLAttributes } from 'react';
 
-export function Button() {
-  const [value, setValue] = useState(0);
+import '../styles/button.scss';
 
-  function changeValue() {
-    setValue(value + 1);
-  }
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
+export function Button(props: ButtonProps) {
   return (
-    <button onClick={changeValue}>{value}</button>
+    <button className="button" {...props} />
   )
 }
