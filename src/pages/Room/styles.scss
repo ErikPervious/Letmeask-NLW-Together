@@ -13,12 +13,23 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
   main {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 
     .room-title {
       margin: 32px 0 24px;
@@ -96,6 +107,14 @@
         }
 
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
+    }
+
+    .notQuestion {
+      margin-top: 30px;
     }
   }
 }
