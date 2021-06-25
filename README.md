@@ -13,15 +13,6 @@
   <a href="#license">Licença</a>
 </p>
 
-<!-- 
-<div align="center">
-  <img border="0" src="./github/banner.png" alt="icon"/>
-  <p></p>
-  <img src="https://img.shields.io/badge/license-MIT-blue" />
-  <img src="https://img.shields.io/github/watchers/erikpervious/Letmeask-NLW-Together?style=social" />
-  <img src="https://img.shields.io/twitter/url?label=ErikPervious&url=https%3A%2F%2Ftwitter.com%2Ferikpervious" />
-</div> -->
-
 <h1 id="title">💻 Projeto</h1>
 
 <p>&nbsp;NLW é um evento inédito, gratuito e é disponibilizado pela <a href="https://rocketseat.com.br/">Rockeatset</a>, uma empresa onde o foco é te levar ao próximo nível na programação, todo ano eles liberam eventos inéditos e gratuitos que podem te ajudar a evoluir mesmo você sendo um profissional ou um iniciante na área. Nessa edição, ao se cadastrar, você teria a oportunidade de escolher 7 trilhas, são elas, ReactJS para <b>Front End</b>, React Native e Flutter para <b>Mobile</b>, Node.js e Elixir para <b>Back End</b> e Discover e Origin para <b>Iniciantes</b>.</p>
@@ -44,7 +35,7 @@
 </div>
 <div align="center">
   <img alt="Questions" title="#Questions" src="./github/questions.png" width="400" />
-  <img alt="QuestionsRoom" title="#deleteQuestions" src="https://user-images.githubusercontent.com/51729214/123443582-67f2f900-d5ac-11eb-8f33-29993fdbcdec.png" width="400" />
+  <img alt="QuestionsRoom" title="#deleteQuestions" src="./github/questionsRoom.png" width="400" />
 </div>
 
 <h2 id="technologies">✨ Tecnologias</h2>
