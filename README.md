@@ -28,7 +28,7 @@
 
 <p>&nbsp;Nessa edição resolvi escolher a trilha ReactJS por que me identifico com Front End e gosto muito de criar telas, A proposta do Diego(professor da trilha ReactJS) foi criar uma aplicação que tem como foco responder perguntas e dúvidas em palestras ou em eventos ao vivo, a aplicação teve o nome Leatmeask pois traduzida ficaria (Deixe-me Perguntar), começamos a codar nossa aplicação no Domingo(20/06/2021) e terminamos na Quinta(24/06/2021), essa foi uma semana muito produtiva e de muito código e como sempre faço nos eventos, usei o <a href="https://notion.so">Notion</a> como bloco de anotações.</p>
 
-<p>&nbsp;Sempre participo das edições da NLW e sempre saio com muito aprendizado e conhecimento a mais, então se voce é um apaixonado pela programação e quer se tornar um programar de sucesso ou até já está trabalhando na área, te recomendo muito a se cadastrar na <a href="https://rocketseat.com.br/">Rockeatset</a> para ficar pode dentro de todos os eventos que eles disponibilizam.</p>
+<p>&nbsp;Em todas as vezes que participei edições NLW, sempre consegui obter um conhecimento absurdo na área, então se voce é um apaixonado pela programação e quer se tornar um programar de sucesso ou até já está trabalhando na área, te recomendo muito a se cadastrar na <a href="https://rocketseat.com.br/">Rockeatset</a> para ficar pode dentro de todos os eventos que eles disponibilizam.</p>
 
 <h2 id="preview">🔖 Layout</h2>
 
