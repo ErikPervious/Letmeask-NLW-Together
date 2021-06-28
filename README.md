@@ -30,18 +30,10 @@
 </div>
 
 <div align="center">
-  <img alt="Questions" title="#Questions" src="https://user-images.githubusercontent.com/51729214/123678994-5fedc000-d81d-11eb-853c-fa12a1339675.png" width="700" />
-  <img alt="QuestionsRoom" title="#deleteQuestions" src="https://user-images.githubusercontent.com/51729214/123679358-ca066500-d81d-11eb-9db8-5929519dee9e.png" width="235" />
+  <img alt="Questions" title="#Questions" src="https://user-images.githubusercontent.com/51729214/123678994-5fedc000-d81d-11eb-853c-fa12a1339675.png" width="600" />
+  <img alt="QuestionsRoom" title="#deleteQuestions" src="https://user-images.githubusercontent.com/51729214/123679358-ca066500-d81d-11eb-9db8-5929519dee9e.png" width="200" />
 </div>
-<!-- <div align="center">
-  <img alt="Signin" title="#Signin" src="./github/signIn.png" width="400" />
-  <img alt="NewRoom" title="#NewRoom" src="./github/newRoom.png" width="400" />
-</div>
-<div align="center">
-  <img alt="Questions" title="#Questions" src="./github/questions.png" width="400" />
-  <img alt="QuestionsRoom" title="#deleteQuestions" src="./github/questionsRoom.png" width="400" />
-</div>
- -->
+
 <h2 id="technologies">✨ Tecnologias</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
