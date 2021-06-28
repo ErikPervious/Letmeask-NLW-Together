@@ -118,3 +118,29 @@
     }
   }
 }
+
+
+$breakpoint-tablet: 850px;
+@media (max-width: $breakpoint-tablet) {
+  header {
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: space-around;
+
+    .content {
+      
+      > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      > img {
+        display: none;
+      }
+    }
+  }
+  main {
+    padding: 30px;
+  }
+}

@@ -6,8 +6,10 @@ import { useRoom } from '../../hooks/useRoom';
 import { database } from '../../services/firebase';
 // import { useAuth } from '../hooks/useAuth';
 
-import logoImg from '../../assets/logo.svg';
-import deleteImg from '../../assets/delete.svg';
+import logoImg from '../../assets/images/logo.svg';
+import deleteImg from '../../assets/images/delete.svg';
+import checkImg from '../../assets/images/check.svg';
+import answerImg from '../../assets/images/answer.svg';
 
 import '../Room/styles.scss';
 
@@ -38,6 +40,18 @@ export function AdminRoom() {
     }
   }
 
+  async function handleCheckQuestionAsAnswered(questionId: string) {
+    await database.ref(`rooms/${roomId}/questions/${questionId}`).update({
+      isAnswered: true,
+    });
+  }
+
+  async function handleHighlightQuestion(questionId: string) {
+    await database.ref(`rooms/${roomId}/questions/${questionId}`).update({
+      isHighlighted: true,
+    });
+  }
+
   return (
     <div id="page-room">
       <header>
@@ -64,7 +78,25 @@ export function AdminRoom() {
                   key={questions.id}
                   content={questions.content}
                   author={questions.author}
+                  isHighlighted={questions.isHighlighted}
+                  isAnswered={questions.isAnswered}
                 >
+                  { !questions.isAnswered && (
+                    <>
+                      <button
+                        type="button"
+                        onClick={() => handleCheckQuestionAsAnswered(questions.id)}
+                      >
+                        <img src={checkImg} alt="Marcar pergunta como respondida" />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleHighlightQuestion(questions.id)}
+                      >
+                        <img src={answerImg} alt="Dar destaque a pergunta" />
+                      </button>
+                    </>
+                  )}
                   <button
                     type="button"
                     onClick={() => handleDeleteQuestion(questions.id)}
@@ -76,7 +108,7 @@ export function AdminRoom() {
             }
           </div>
           :
-          <span className="notQuestion">Esta sala não tem perguntas</span>   
+          <span className="notQuestion">Esta sala não tem perguntas, <br/>compartilhe o código para recebê-las.</span>   
         }
       </main>
     </div>

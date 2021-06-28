@@ -132,3 +132,23 @@
     }
   }
 }
+
+
+$breakpoint-tablet: 800px;
+@media (max-width: $breakpoint-tablet) {
+  #page-auth {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 100vh;
+  
+    aside {
+      height: 100vh;
+    }
+    
+    main {
+      height: 100vh;
+      padding: 40px;
+    }
+  }
+}

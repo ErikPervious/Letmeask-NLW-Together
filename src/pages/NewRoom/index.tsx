@@ -4,8 +4,8 @@ import { Button } from '../../components/Button';
 import { database } from '../../services/firebase';
 import { useAuth } from '../../hooks/useAuth';
 
-import illustrationImg from '../../assets/illustration.svg';
-import logoImg from '../../assets/logo.svg';
+import illustrationImg from '../../assets/images/illustration.svg';
+import logoImg from '../../assets/images/logo.svg';
 
 import '../Home/styles.scss';
 
