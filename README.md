@@ -44,12 +44,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [SASS](https://sass-lang.com/)
 - [Firebase](https://firebase.google.com/)
 
-<h2 id="for-execute">🚀 Como Executar</h2>
-
-- Clone o repositório: `git clone https://github.com/ErikPervious/Letmeask-NLW-Together`
-- Instale as dependências: `yarn install` 
-- Inicie o servidor: `yarn dev`
-
 <h2 id="license">📄 Licença</h2>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
